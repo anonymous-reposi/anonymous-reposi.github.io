@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+## MaskPlace
 
-You can use the [editor on GitHub](https://github.com/anonymous-reposi/anonymous-reposi.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+A new chip placement method based on visual representation learning.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### The placement process animation
 
-### Markdown
+Benchmark: Bigblue3
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+|Placement| Pos Mask t | Wire Mask t |
+|---|---|---|
+|<img src="imgs/place.gif" width="250">|<img src="imgs/pos_img.gif" width="250">|<img src="imgs/net_img.gif" width="250">|
+|<center><b> View Mask </b></center>| <center><b> Pos Mask t+1 </b></center>| <center><b> Wire Mask t+1 </b></center>|
+|<img src="imgs/view_img.gif" width=250>|<img src="imgs/pos_img_next.gif" width=250> | <img src="imgs/net_img_next.gif" width=250>|
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Full Benchmark demonstration
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anonymous-reposi/anonymous-reposi.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+|Benchmark| DREAMPlace | Graph | DeepPR | MaskPlace |
+|---|---|---|---|---|
+|adaptec1|<img src="imgs/dreamplace/adaptec1.png" width="160">|<img src="imgs/graph/adaptec1.png" width="160">|<img src="imgs/deeppr/adaptec1.png" width="160">|<img src="imgs/maskplace/adaptec1.png" width="160">|
+|HPWL (10<sup>5</sup>)|17.94|26.05|21.36|6.57|
+|Wirel (10<sup>5</sup>)|19.24|28.54|25.64|7.36|
+|adaptec2|<img src="imgs/dreamplace/adaptec2.png" width="160">|<img src="imgs/graph/adaptec2.png" width="160"> | <img src="imgs/deeppr/adaptec2.png" width="160">|<img src="imgs/maskplace/adaptec2.png" width="160">|
+|HPWL (10<sup>5</sup>)|135.32|359.35|197.13|79.98|
+|Wirel (10<sup>5</sup>)|140.91|381.64|205.78|83.59|
+|adaptec3|<img src="imgs/dreamplace/adaptec3.png" width="160">|<img src="imgs/graph/adaptec3.png" width="160"> | <img src="imgs/deeppr/adaptec3.png" width="160">|<img src="imgs/maskplace/adaptec3.png" width="160">|
+|HPWL (10<sup>5</sup>)|112.28|392.66|340.29|79.33|
+|Wirel (10<sup>5</sup>)|119.23|409.37|372.02|85.28|
+|adaptec4|<img src="imgs/dreamplace/adaptec4.png" width="160">|<img src="imgs/graph/adaptec4.png" width="160"> | <img src="imgs/deeppr/adaptec4.png" width="160">|<img src="imgs/maskplace/adaptec4.png" width="160">|
+|HPWL (10<sup>5</sup>)|37.77|152.89|243.12|75.75|
+|Wirel (10<sup>5</sup>)|47.90|179.43|290.14|88.87|
+|bigblue1|<img src="imgs/dreamplace/bigblue1.png" width="160">|<img src="imgs/graph/bigblue1.png" width="160"> | <img src="imgs/deeppr/bigblue1.png" width="160">|<img src="imgs/maskplace/bigblue1.png" width="160">|
+|HPWL (10<sup>5</sup>)|2.50|8.32|20.49|2.42|
+|Wirel (10<sup>5</sup>)|3.41|10.00|25.68|3.14|
+|bigblue3|<img src="imgs/dreamplace/bigblue3.png" width="160">|<img src="imgs/graph/bigblue3.png" width="160"> | <img src="imgs/deeppr/bigblue3.png" width="160">|<img src="imgs/maskplace/bigblue3.png" width="160">|
+|HPWL (10<sup>5</sup>)|104.05|345.49|439.09|82.61|
+|Wirel (10<sup>5</sup>)|107.58|373.33|517.86|88.51|
+|ariane|<img src="imgs/dreamplace/ariane.png" width="160">|<img src="imgs/graph/ariane.png" width="160"> | <img src="imgs/deeppr/ariane.png" width="160">|<img src="imgs/maskplace/ariane.png" width="160">|
+|HPWL (10<sup>5</sup>)|20.30|16.83|51.43|14.86|
+|Wirel (10<sup>5</sup>)|21.72|18.48|55.85|15.80|
