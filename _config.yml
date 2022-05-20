@@ -1,3 +1,3 @@
 theme: jekyll-theme-cayman
 github:
-  repository_url: https://github.com/anonymous-reposi/anonymous-reposi.github.io
+  is_project_page: true
