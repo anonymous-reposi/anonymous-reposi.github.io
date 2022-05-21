@@ -14,6 +14,13 @@ Benchmark: Bigblue3
 |<img src="imgs/view_img.gif" width=250>|<img src="imgs/pos_img_next.gif" width=250> | <img src="imgs/net_img_next.gif" width=250>|
 
 
+### Standard Cell Placement
+
+Benchmark: Bigblue3\
+Fix macros and use DREAMPlace (classic optimization-based method) to place standard cells.
+
+<img src="imgs/standardcell.gif" width="250">
+
 ### Full Benchmark demonstration
 
 
@@ -40,3 +47,6 @@ Benchmark: Bigblue3
 |ariane|<img src="imgs/dreamplace/ariane.png" width="160">|<img src="imgs/graph/ariane.png" width="160"> | <img src="imgs/deeppr/ariane.png" width="160">|<img src="imgs/maskplace/ariane.png" width="160">|
 |HPWL (10<sup>5</sup>)|20.30|16.83|51.43|<strong>14.86</strong>|
 |Wirel (10<sup>5</sup>)|21.72|18.48|55.85|<strong>15.80</strong>|
+
+
+
