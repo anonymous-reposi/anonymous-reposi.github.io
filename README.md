@@ -29,8 +29,8 @@ Benchmark: Bigblue3
 |HPWL (10<sup>5</sup>)|112.28|392.66|340.29|<strong>79.33</strong>|
 |Wirel (10<sup>5</sup>)|119.23|409.37|372.02|<strong>85.28</strong>|
 |adaptec4|<img src="imgs/dreamplace/adaptec4.png" width="160">|<img src="imgs/graph/adaptec4.png" width="160"> | <img src="imgs/deeppr/adaptec4.png" width="160">|<img src="imgs/maskplace/adaptec4.png" width="160">|
-|HPWL (10<sup>5</sup>)|37.77|152.89|243.12|<strong>75.75</strong>|
-|Wirel (10<sup>5</sup>)|47.90|179.43|290.14|<strong>88.87</strong>|
+|HPWL (10<sup>5</sup>)|<strong>37.77</strong>|152.89|243.12|75.75|
+|Wirel (10<sup>5</sup>)|<strong>47.90</strong>|179.43|290.14|88.87|
 |bigblue1|<img src="imgs/dreamplace/bigblue1.png" width="160">|<img src="imgs/graph/bigblue1.png" width="160"> | <img src="imgs/deeppr/bigblue1.png" width="160">|<img src="imgs/maskplace/bigblue1.png" width="160">|
 |HPWL (10<sup>5</sup>)|2.50|8.32|20.49|<strong>2.42</strong>|
 |Wirel (10<sup>5</sup>)|3.41|10.00|25.68|<strong>3.14</strong>|
