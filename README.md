@@ -16,11 +16,11 @@ Benchmark: Bigblue3
 
 ### Standard Cell Placement
 
-Benchmark: Bigblue3\
 Fix macros and use DREAMPlace (classic optimization-based method) to place standard cells.
 
-<div align=center>!<img src="imgs/standardcell.gif" width="280"></div>
-
+|<center>adaptec2</center>| <center>adaptec4 </center>| <center> bigblue3 </center>|
+|---|---|---|
+|<img src="imgs/stdcell_a2.gif" width="250">|<img src="imgs/stdcell_a4.gif" width="250">|<img src="imgs/stdcell_b3.gif" width="250">|
 
 ### Full Benchmark demonstration
 
