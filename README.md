@@ -16,7 +16,6 @@ Benchmark: Bigblue3
 
 ### Standard Cell Placement
 
-Fix macros and use DREAMPlace (classic optimization-based method) to place standard cells.
 
 |<center>adaptec2</center>| <center>adaptec4 </center>| <center> bigblue3 </center>|
 |---|---|---|
